@@ -1,0 +1,25 @@
+{
+  "courseId":"java",
+  "terms":[
+    {"term":"JDK","fa":"کیت توسعه Java؛ شامل ابزارهای لازم برای توسعه و کامپایل."},
+    {"term":"JVM","fa":"ماشین مجازی اجراکننده Bytecode جاوا."},
+    {"term":"Bytecode","fa":"کد میانی تولیدشده توسط کامپایلر Java."},
+    {"term":"Class","fa":"قالب تعریف داده و رفتار Objectها."},
+    {"term":"Object","fa":"نمونه ساخته‌شده از یک Class."},
+    {"term":"Encapsulation","fa":"محدودکردن دسترسی مستقیم به وضعیت داخلی Object."},
+    {"term":"Inheritance","fa":"به‌ارث‌بردن رفتار و ویژگی از نوع دیگر."},
+    {"term":"Polymorphism","fa":"کار با چند پیاده‌سازی از طریق قرارداد مشترک."},
+    {"term":"Interface","fa":"قرارداد رفتاری قابل پیاده‌سازی توسط Classها."},
+    {"term":"Collection","fa":"APIهای استاندارد برای نگهداری و پردازش مجموعه داده."},
+    {"term":"Exception","fa":"مدل Java برای نمایش و مدیریت وضعیت خطا."},
+    {"term":"Generic","fa":"پارامتری‌کردن Type برای ایمنی نوع و استفاده مجدد."},
+    {"term":"Stream","fa":"Pipeline پردازش declarative داده‌ها."},
+    {"term":"Thread","fa":"مسیر اجرای مستقل در یک Process."},
+    {"term":"Garbage Collector","fa":"سامانه مدیریت خودکار حافظه اشیای غیرقابل‌دسترسی."},
+    {"term":"JDBC","fa":"API استاندارد Java برای ارتباط با دیتابیس رابطه‌ای."},
+    {"term":"Dependency Injection","fa":"دریافت وابستگی از بیرون به‌جای ساخت مستقیم آن."},
+    {"term":"REST","fa":"سبک معماری متداول برای APIهای مبتنی بر HTTP."},
+    {"term":"JPA","fa":"استاندارد Java برای Object-Relational Mapping."},
+    {"term":"JWT","fa":"قالب Token امضاشده برای انتقال Claimها."}
+  ]
+}
