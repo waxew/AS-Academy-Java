@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
-/** Endpoint عمومی ثبت‌نام. Login/JWT در گام امنیتی بعدی روی همین ماژول قرار می‌گیرد. */
+/** API عمومی Authentication شامل Register و Login. */
 @RestController
 @RequestMapping("/api/auth")
 public class AuthController {
@@ -29,10 +29,13 @@ public class AuthController {
         return new UserResponse(user.getId(), user.getEmail(), user.getRole().name());
     }
 
-    public record RegisterRequest(
-            @NotBlank @Email String email,
-            @NotBlank @Size(min = 8, max = 72) String password) { }
+    @PostMapping("/login")
+    public TokenResponse login(@Valid @RequestBody LoginRequest request) {
+        return new TokenResponse(authService.login(request.email(), request.password()), "Bearer");
+    }
 
-    /** پاسخ عمداً Password Hash را برنمی‌گرداند. */
+    public record RegisterRequest(@NotBlank @Email String email, @NotBlank @Size(min = 8, max = 72) String password) { }
+    public record LoginRequest(@NotBlank @Email String email, @NotBlank String password) { }
     public record UserResponse(Long id, String email, String role) { }
+    public record TokenResponse(String accessToken, String tokenType) { }
 }
