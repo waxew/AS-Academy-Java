@@ -1,0 +1,29 @@
+name: Java Capstone CI
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'course/projects/capstone/academy-store-api/**'
+      - '.github/workflows/capstone-ci.yml'
+  pull_request:
+    paths:
+      - 'course/projects/capstone/academy-store-api/**'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: course/projects/capstone/academy-store-api
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Set up Java 21
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '21'
+          cache: maven
+      - name: Verify capstone
+        run: mvn --batch-mode verify
