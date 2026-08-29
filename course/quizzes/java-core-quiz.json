@@ -1,0 +1,27 @@
+{
+  "id": "java-core-quiz-v1",
+  "title": "Java Core Assessment",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single_choice",
+      "question": "کدام گزینه نقطه ورود معمول برنامه Java است؟",
+      "options": ["start()", "run()", "main()", "init()"],
+      "answerIndex": 2
+    },
+    {
+      "id": "q2",
+      "type": "single_choice",
+      "question": "برای کلید/مقدار معمولاً از کدام Collection استفاده می‌شود؟",
+      "options": ["List", "Map", "Queue", "Array"],
+      "answerIndex": 1
+    },
+    {
+      "id": "q3",
+      "type": "single_choice",
+      "question": "کدام API برای جلوگیری از اتصال پارامتر خام به SQL مناسب‌تر است؟",
+      "options": ["StringBuilder", "PreparedStatement", "Scanner", "FileWriter"],
+      "answerIndex": 1
+    }
+  ]
+}

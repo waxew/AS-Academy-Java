@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    # مقادیر واقعی از Environment Variable تزریق می‌شوند و وارد Git نمی‌شوند.
+    url: ${DB_URL:jdbc:postgresql://localhost:5432/academy_store}
+    username: ${DB_USERNAME:academy}
+    password: ${DB_PASSWORD:academy}
+  jpa:
+    hibernate:
+      ddl-auto: update
+    open-in-view: false
+
+server:
+  port: ${PORT:8080}
