@@ -1,0 +1,18 @@
+{
+  "courseId": "java",
+  "policy": {
+    "allowFreeNavigation": true,
+    "recommendedSequentialPath": true,
+    "completion": {
+      "lessonRead": true,
+      "exerciseAttemptRequired": true,
+      "quizPassScore": 70
+    }
+  },
+  "milestones": [
+    {"id":"java-ms-001","afterChapter":"java-ch-005","titleFa":"پایان مبانی","project":"ماشین حساب و سیستم نمرات"},
+    {"id":"java-ms-002","afterChapter":"java-ch-009","titleFa":"پایان مقدماتی","project":"مدیریت مشتری و فاکتور OOP"},
+    {"id":"java-ms-003","afterChapter":"java-ch-014","titleFa":"پایان پیشرفته","project":"CRUD با JDBC و تست"},
+    {"id":"java-ms-004","afterChapter":"java-ch-022","titleFa":"Java Professional","project":"Academy Store API"}
+  ]
+}
