@@ -1,0 +1,16 @@
+{
+  "JVM":"ماشین مجازی جاوا؛ اجراکننده Bytecode.",
+  "JDK":"مجموعه ابزار توسعه Java شامل compiler و ابزارهای توسعه.",
+  "JRE":"محیط اجرای برنامه‌های Java.",
+  "Bytecode":"خروجی میانی کامپایل Java برای JVM.",
+  "OOP":"برنامه‌نویسی شی‌گرا.",
+  "Encapsulation":"کنترل و محدودسازی دسترسی به state داخلی شیء.",
+  "Polymorphism":"امکان رفتار متفاوت پشت یک قرارداد مشترک.",
+  "Collection":"چارچوب ساختارهای داده عمومی Java.",
+  "JDBC":"API استاندارد Java برای ارتباط با دیتابیس رابطه‌ای.",
+  "JPA":"Specification برای persistence شیء-رابطه‌ای.",
+  "Hibernate":"ORM رایج و implementation شناخته‌شده JPA.",
+  "Spring Boot":"چارچوب ساخت سریع برنامه‌های Spring production-oriented.",
+  "JWT":"توکن امضاشده متداول برای انتقال claims در احراز هویت.",
+  "GC":"Garbage Collector؛ مدیریت خودکار حافظه اشیای بلااستفاده."
+}

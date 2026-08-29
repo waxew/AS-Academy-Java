@@ -1,0 +1,17 @@
+{
+  "version": "1.0.0",
+  "items": [
+    {"id":"java-ex-001","module":3,"title":"محاسبه فاکتور","difficulty":"fundamentals"},
+    {"id":"java-ex-002","module":4,"title":"تعیین سطح کاربر","difficulty":"fundamentals"},
+    {"id":"java-ex-003","module":5,"title":"تحلیل نمرات","difficulty":"fundamentals"},
+    {"id":"java-ex-004","module":6,"title":"مدل Product","difficulty":"beginner"},
+    {"id":"java-ex-005","module":7,"title":"سیستم پرداخت چندریخت","difficulty":"beginner"},
+    {"id":"java-ex-006","module":8,"title":"مدیریت مشتریان با Collections","difficulty":"beginner"},
+    {"id":"java-ex-007","module":9,"title":"Custom Exception","difficulty":"beginner"},
+    {"id":"java-ex-008","module":11,"title":"گزارش با Stream API","difficulty":"advanced"},
+    {"id":"java-ex-009","module":12,"title":"اجرای همزمان Taskها","difficulty":"advanced"},
+    {"id":"java-ex-010","module":14,"title":"CRUD امن با JDBC","difficulty":"advanced"},
+    {"id":"java-ex-011","module":17,"title":"Spring Boot CRUD","difficulty":"professional"},
+    {"id":"java-ex-012","module":20,"title":"JWT Authentication","difficulty":"professional"}
+  ]
+}

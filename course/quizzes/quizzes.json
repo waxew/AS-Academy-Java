@@ -1,0 +1,11 @@
+{
+  "version":"1.0.0",
+  "quizzes":[
+    {"id":"java-q-01","module":1,"question":"کدام مؤلفه Bytecode را اجرا می‌کند؟","choices":["JVM","JDK","javac","Maven"],"answer":0},
+    {"id":"java-q-02","module":3,"question":"کدام نوع برای اعداد صحیح 64 بیتی است؟","choices":["int","short","long","float"],"answer":2},
+    {"id":"java-q-03","module":6,"question":"هدف Encapsulation چیست؟","choices":["پنهان‌سازی و کنترل دسترسی به state","افزایش Thread","حذف Class","کامپایل سریع‌تر"],"answer":0},
+    {"id":"java-q-04","module":8,"question":"کدام ساختار کلید/مقدار نگه می‌دارد؟","choices":["List","Set","Map","Queue"],"answer":2},
+    {"id":"java-q-05","module":14,"question":"برای پارامترهای SQL امن‌تر کدام گزینه مناسب است؟","choices":["PreparedStatement","String concat","println","Reflection"],"answer":0},
+    {"id":"java-q-06","module":17,"question":"Service layer معمولاً چه مسئولیتی دارد؟","choices":["Business logic","CSS","JVM loading","DNS"],"answer":0}
+  ]
+}

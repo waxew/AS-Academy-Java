@@ -1,0 +1,22 @@
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Java / Gradle / Maven
+*.class
+build/
+target/
+.gradle/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+.env.*
+*.jks
+*.keystore
+secrets.properties
+application-local.properties

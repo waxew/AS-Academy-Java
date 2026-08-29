@@ -1,0 +1,16 @@
+{
+  "id": "java",
+  "slug": "java",
+  "title": "Java | جاوا",
+  "language": "fa",
+  "direction": "rtl",
+  "version": "1.0.0",
+  "coreContract": "AS-Academy-Core",
+  "levels": ["fundamentals", "beginner", "advanced", "professional"],
+  "modules": 22,
+  "hasExercises": true,
+  "hasQuizzes": true,
+  "hasProjects": true,
+  "hasGlossary": true,
+  "offlineFirst": true
+}
