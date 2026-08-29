@@ -1,0 +1,33 @@
+{
+  "courseId": "java",
+  "levels": [
+    {
+      "id": "java-level-fundamentals",
+      "slug": "fundamentals",
+      "titleFa": "مبانی",
+      "order": 1,
+      "descriptionFa": "شروع از صفر: Java، محیط توسعه، Syntax، متغیرها، شرط‌ها، حلقه‌ها، آرایه‌ها و متدها."
+    },
+    {
+      "id": "java-level-beginner",
+      "slug": "beginner",
+      "titleFa": "مقدماتی",
+      "order": 2,
+      "descriptionFa": "شی‌گرایی، Collections، مدیریت خطا و کار با فایل و داده."
+    },
+    {
+      "id": "java-level-advanced",
+      "slug": "advanced",
+      "titleFa": "پیشرفته",
+      "order": 3,
+      "descriptionFa": "Generics، Stream، Concurrency، JVM، JDBC، Testing و مهندسی نرم‌افزار."
+    },
+    {
+      "id": "java-level-professional",
+      "slug": "professional",
+      "titleFa": "تخصصی",
+      "order": 4,
+      "descriptionFa": "Spring، Spring Boot، REST، JPA/Hibernate، Security، Deployment و Java Android."
+    }
+  ]
+}
