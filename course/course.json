@@ -9,7 +9,7 @@
   "coreContract": "AS-Academy-Core",
   "audienceFa": "از کاربر بدون پیش‌زمینه برنامه‌نویسی تا توسعه‌دهنده‌ای که می‌خواهد Java، JVM، الگوریتم، تست، دیتابیس و Spring Boot را برای بازار کار حرفه‌ای یاد بگیرد.",
   "levels": ["fundamentals", "beginner", "advanced", "professional"],
-  "modules": 36,
+  "modules": 38,
   "learningModel": "lesson-example-exercise-quiz-project",
   "hasExercises": true,
   "hasQuizzes": true,
@@ -18,5 +18,5 @@
   "hasCodeExamples": true,
   "offlineFirst": true,
   "entryChapterId": "java-ch-001",
-  "finalChapterId": "java-ch-036"
+  "finalChapterId": "java-ch-038"
 }
