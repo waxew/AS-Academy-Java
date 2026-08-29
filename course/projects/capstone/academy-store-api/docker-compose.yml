@@ -1,0 +1,31 @@
+services:
+  postgres:
+    image: postgres:17-alpine
+    environment:
+      POSTGRES_DB: academy_store
+      POSTGRES_USER: academy
+      POSTGRES_PASSWORD: academy_local_only
+    ports:
+      - "5432:5432"
+    volumes:
+      - academy_store_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U academy -d academy_store"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+  api:
+    build: .
+    depends_on:
+      postgres:
+        condition: service_healthy
+    environment:
+      DB_URL: jdbc:postgresql://postgres:5432/academy_store
+      DB_USERNAME: academy
+      DB_PASSWORD: academy_local_only
+    ports:
+      - "8080:8080"
+
+volumes:
+  academy_store_data:
