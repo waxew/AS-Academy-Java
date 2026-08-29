@@ -2,15 +2,21 @@
   "id": "java",
   "slug": "java",
   "title": "Java | جاوا",
+  "subtitleFa": "آموزش Java از صفر تا سطح تخصصی",
   "language": "fa",
   "direction": "rtl",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "coreContract": "AS-Academy-Core",
+  "audienceFa": "مناسب برای کاربر بدون پیش‌زمینه تا توسعه‌دهنده‌ای که می‌خواهد Java Backend را حرفه‌ای یاد بگیرد.",
   "levels": ["fundamentals", "beginner", "advanced", "professional"],
   "modules": 22,
+  "learningModel": "lesson-example-exercise-quiz-project",
   "hasExercises": true,
   "hasQuizzes": true,
   "hasProjects": true,
   "hasGlossary": true,
-  "offlineFirst": true
+  "hasCodeExamples": true,
+  "offlineFirst": true,
+  "entryChapterId": "java-ch-001",
+  "finalChapterId": "java-ch-022"
 }
