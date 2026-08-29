@@ -1,0 +1,18 @@
+{
+  "courseId": "java",
+  "titleFa": "آموزش جامع Java",
+  "titleEn": "Java",
+  "version": "1.1.0",
+  "contentSchemaVersion": 1,
+  "minimumCoreVersion": "1.0.0",
+  "rtl": true,
+  "capabilities": {
+    "codeRunner": true,
+    "terminalExamples": true,
+    "diagrams": true,
+    "quizzes": true,
+    "exercises": true,
+    "projects": true,
+    "glossary": true
+  }
+}
