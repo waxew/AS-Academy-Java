@@ -1,0 +1,27 @@
+{
+  "courseId": "java",
+  "chapters": [
+    {"id":"java-ch-001","level":"fundamentals","order":1,"titleFa":"Java چیست و چگونه اجرا می‌شود؟","lesson":"lessons/fundamentals/01-hello-java.md"},
+    {"id":"java-ch-002","level":"fundamentals","order":2,"titleFa":"نصب JDK و محیط توسعه","lesson":"levels/fundamentals/02-environment.md"},
+    {"id":"java-ch-003","level":"fundamentals","order":3,"titleFa":"متغیرها، انواع داده و عملگرها","lesson":"lessons/fundamentals/02-variables-types.md"},
+    {"id":"java-ch-004","level":"fundamentals","order":4,"titleFa":"شرط‌ها و حلقه‌ها","lesson":"lessons/fundamentals/03-control-flow.md"},
+    {"id":"java-ch-005","level":"fundamentals","order":5,"titleFa":"آرایه‌ها و متدها","lesson":"lessons/fundamentals/04-arrays-methods.md"},
+    {"id":"java-ch-006","level":"beginner","order":6,"titleFa":"Class، Object و Encapsulation","lesson":"lessons/beginner/05-oop.md"},
+    {"id":"java-ch-007","level":"beginner","order":7,"titleFa":"Inheritance، Polymorphism و Interface","lesson":"lessons/beginner/06-inheritance-interface.md"},
+    {"id":"java-ch-008","level":"beginner","order":8,"titleFa":"Collections Framework","lesson":"lessons/beginner/07-collections.md"},
+    {"id":"java-ch-009","level":"beginner","order":9,"titleFa":"Exception Handling و File I/O","lesson":"lessons/beginner/08-exceptions-files.md"},
+    {"id":"java-ch-010","level":"advanced","order":10,"titleFa":"Generics، Lambda و Stream API","lesson":"lessons/advanced/09-streams-generics.md"},
+    {"id":"java-ch-011","level":"advanced","order":11,"titleFa":"Multithreading و Concurrency","lesson":"lessons/advanced/10-concurrency.md"},
+    {"id":"java-ch-012","level":"advanced","order":12,"titleFa":"JVM و مدیریت حافظه","lesson":"levels/advanced/13-jvm.md"},
+    {"id":"java-ch-013","level":"advanced","order":13,"titleFa":"SQL و JDBC","lesson":"lessons/advanced/11-jdbc.md"},
+    {"id":"java-ch-014","level":"advanced","order":14,"titleFa":"Testing، Clean Code، SOLID و Patterns","lesson":"levels/advanced/15-engineering.md"},
+    {"id":"java-ch-015","level":"professional","order":15,"titleFa":"Spring Core و Dependency Injection","lesson":"lessons/professional/12-spring-architecture.md"},
+    {"id":"java-ch-016","level":"professional","order":16,"titleFa":"Spring Boot","lesson":"levels/professional/17-spring-boot.md"},
+    {"id":"java-ch-017","level":"professional","order":17,"titleFa":"REST API","lesson":"levels/professional/18-rest.md"},
+    {"id":"java-ch-018","level":"professional","order":18,"titleFa":"JPA و Hibernate","lesson":"levels/professional/19-persistence.md"},
+    {"id":"java-ch-019","level":"professional","order":19,"titleFa":"Security و JWT","lesson":"levels/professional/20-security.md"},
+    {"id":"java-ch-020","level":"professional","order":20,"titleFa":"Docker، CI/CD و Deployment","lesson":"levels/professional/21-deployment.md"},
+    {"id":"java-ch-021","level":"professional","order":21,"titleFa":"Java برای Android","lesson":"levels/professional/22-android.md"},
+    {"id":"java-ch-022","level":"professional","order":22,"titleFa":"پروژه نهایی و آمادگی بازار کار","project":"projects/capstone/README.md"}
+  ]
+}
