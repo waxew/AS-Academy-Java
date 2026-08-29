@@ -14,7 +14,7 @@
     {"id":"java-ch-011","level":"advanced","order":11,"titleFa":"Multithreading و Concurrency","lesson":"lessons/advanced/10-concurrency.md"},
     {"id":"java-ch-012","level":"advanced","order":12,"titleFa":"JVM و مدیریت حافظه","lesson":"lessons/advanced/12-jvm-memory.md"},
     {"id":"java-ch-013","level":"advanced","order":13,"titleFa":"SQL و JDBC","lesson":"lessons/advanced/11-jdbc.md"},
-    {"id":"java-ch-014","level":"advanced","order":14,"titleFa":"Testing، Clean Code، SOLID و Patterns","lesson":"lessons/advanced/13-testing-engineering.md"},
+    {"id":"java-ch-014","level":"advanced","order":14,"titleFa":"Testing، Clean Code و SOLID","lesson":"lessons/advanced/13-testing-engineering.md"},
     {"id":"java-ch-015","level":"professional","order":15,"titleFa":"Spring Core و Dependency Injection","lesson":"lessons/professional/12-spring-architecture.md"},
     {"id":"java-ch-016","level":"professional","order":16,"titleFa":"Spring Boot","lesson":"lessons/professional/14-spring-boot.md"},
     {"id":"java-ch-017","level":"professional","order":17,"titleFa":"REST API","lesson":"lessons/professional/15-rest-api.md"},
@@ -22,7 +22,7 @@
     {"id":"java-ch-019","level":"professional","order":19,"titleFa":"Security و JWT","lesson":"lessons/professional/17-security-jwt.md"},
     {"id":"java-ch-020","level":"professional","order":20,"titleFa":"Docker، CI/CD و Deployment","lesson":"lessons/professional/18-deployment.md"},
     {"id":"java-ch-021","level":"professional","order":21,"titleFa":"Java برای Android","lesson":"lessons/professional/19-java-android.md"},
-    {"id":"java-ch-022","level":"professional","order":22,"titleFa":"پروژه نهایی و آمادگی بازار کار","project":"projects/capstone/academy-store-api/README.md"},
+    {"id":"java-ch-022","level":"professional","order":22,"titleFa":"پروژه نهایی Academy Store API","project":"projects/capstone/academy-store-api/README.md"},
     {"id":"java-ch-023","level":"advanced","order":23,"titleFa":"Big O و تحلیل الگوریتم","lesson":"lessons/advanced/20-algorithms-big-o.md"},
     {"id":"java-ch-024","level":"advanced","order":24,"titleFa":"ساختمان داده","lesson":"lessons/advanced/21-data-structures.md"},
     {"id":"java-ch-025","level":"advanced","order":25,"titleFa":"جست‌وجو و مرتب‌سازی","lesson":"lessons/advanced/22-search-sort.md"},
@@ -36,6 +36,8 @@
     {"id":"java-ch-033","level":"advanced","order":33,"titleFa":"HTTP Client و JSON","lesson":"lessons/advanced/27-http-json.md"},
     {"id":"java-ch-034","level":"professional","order":34,"titleFa":"Validation و مدیریت خطای API","lesson":"lessons/professional/23-spring-validation-errors.md"},
     {"id":"java-ch-035","level":"professional","order":35,"titleFa":"Transaction و Performance","lesson":"lessons/professional/24-transactions-performance.md"},
-    {"id":"java-ch-036","level":"professional","order":36,"titleFa":"Testing در Spring Boot","lesson":"lessons/professional/25-testing-spring.md"}
+    {"id":"java-ch-036","level":"professional","order":36,"titleFa":"Testing در Spring Boot","lesson":"lessons/professional/25-testing-spring.md"},
+    {"id":"java-ch-037","level":"advanced","order":37,"titleFa":"Maven، Gradle و Logging حرفه‌ای","lesson":"lessons/advanced/28-build-tools-logging.md"},
+    {"id":"java-ch-038","level":"advanced","order":38,"titleFa":"Design Patterns و معماری قابل نگهداری","lesson":"lessons/advanced/29-design-patterns-architecture.md"}
   ]
 }
