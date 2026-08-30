@@ -12,7 +12,8 @@
   "milestones": [
     {"id":"java-ms-001","afterChapter":"java-ch-005","titleFa":"پایان مبانی","project":"ماشین حساب و سیستم نمرات"},
     {"id":"java-ms-002","afterChapter":"java-ch-009","titleFa":"پایان مقدماتی","project":"مدیریت مشتری و فاکتور OOP"},
-    {"id":"java-ms-003","afterChapter":"java-ch-014","titleFa":"پایان پیشرفته","project":"CRUD با JDBC و تست"},
-    {"id":"java-ms-004","afterChapter":"java-ch-022","titleFa":"Java Professional","project":"Academy Store API"}
+    {"id":"java-ms-003","afterChapter":"java-ch-027","titleFa":"الگوریتم و ساختمان داده","project":"Algorithm Toolkit و Graph Learning Path"},
+    {"id":"java-ms-004","afterChapter":"java-ch-038","titleFa":"پایان سطح پیشرفته","project":"CRUD با JDBC، تست، Build و معماری"},
+    {"id":"java-ms-005","afterChapter":"java-ch-036","titleFa":"Java Backend Professional","project":"Academy Store API"}
   ]
 }
