@@ -1,0 +1,15 @@
+{
+  "courseId": "java",
+  "displayNameFa": "Java | جاوا",
+  "displayNameEn": "Java",
+  "shortName": "Java",
+  "publisher": "AS Academy",
+  "theme": {
+    "primaryToken": "java-primary",
+    "accentToken": "academy-accent"
+  },
+  "assets": {
+    "logo": null,
+    "cover": null
+  }
+}
