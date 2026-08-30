@@ -5,7 +5,7 @@
   "subtitleFa": "آموزش Java از صفر مطلق تا توسعه حرفه‌ای Backend",
   "language": "fa",
   "direction": "rtl",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "coreContract": "AS-Academy-Core",
   "audienceFa": "از کاربر بدون پیش‌زمینه برنامه‌نویسی تا توسعه‌دهنده‌ای که می‌خواهد Java، JVM، الگوریتم، تست، دیتابیس و Spring Boot را برای بازار کار حرفه‌ای یاد بگیرد.",
   "levels": ["fundamentals", "beginner", "advanced", "professional"],
