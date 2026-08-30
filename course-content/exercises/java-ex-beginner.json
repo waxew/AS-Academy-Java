@@ -1,0 +1,1 @@
+{"id":"java-ex-beginner","courseId":"java","lessonId":"java-ls-009","title":"Invoice Manager","description":"Product، InvoiceItem و Invoice را با validation و encapsulation بسازید.","type":"CODE","difficulty":"MEDIUM","hints":["Collection داخلی را مستقیم expose نکنید."],"tags":["oop","collections"]}

@@ -1,0 +1,40 @@
+name: Java Course Package CI
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'course-content/**'
+      - '.github/workflows/course-package-ci.yml'
+  pull_request:
+    paths:
+      - 'course-content/**'
+
+jobs:
+  validate-and-compile:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Java course
+        uses: actions/checkout@v4
+      - name: Checkout AS Academy Core
+        uses: actions/checkout@v4
+        with:
+          repository: waxew/AS-Academy-Core
+          path: as-academy-core
+      - name: Set up Java 21
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '21'
+          cache: gradle
+      - name: Validate course package
+        working-directory: as-academy-core
+        run: ./gradlew :tools:run --args="validate ../course-content"
+      - name: Compile course bundle
+        working-directory: as-academy-core
+        run: mkdir -p ../build && ./gradlew :tools:run --args="compile ../course-content ../build/java-course-bundle.json"
+      - name: Upload compiled bundle
+        uses: actions/upload-artifact@v4
+        with:
+          name: java-course-bundle
+          path: build/java-course-bundle.json
