@@ -14,6 +14,8 @@
     {"id":"java-ms-002","afterChapter":"java-ch-009","titleFa":"پایان مقدماتی","project":"مدیریت مشتری و فاکتور OOP"},
     {"id":"java-ms-003","afterChapter":"java-ch-027","titleFa":"الگوریتم و ساختمان داده","project":"Algorithm Toolkit و Graph Learning Path"},
     {"id":"java-ms-004","afterChapter":"java-ch-038","titleFa":"پایان سطح پیشرفته","project":"CRUD با JDBC، تست، Build و معماری"},
-    {"id":"java-ms-005","afterChapter":"java-ch-036","titleFa":"Java Backend Professional","project":"Academy Store API"}
+    {"id":"java-ms-005","afterChapter":"java-ch-036","titleFa":"Backend Engineering","project":"REST/JPA/Security Integration"},
+    {"id":"java-ms-006","afterChapter":"java-ch-030","titleFa":"آمادگی بازار کار","project":"Portfolio و Interview Pack"},
+    {"id":"java-ms-007","afterChapter":"java-ch-022","titleFa":"پایان دوره Java Professional","project":"Academy Store API Capstone"}
   ]
 }
