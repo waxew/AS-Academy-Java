@@ -1,68 +1,42 @@
 # AS Academy Java
 
-مرجع جامع آموزش Java از صفر مطلق تا Java Backend حرفه‌ای در مجموعه AS Academy.
+اپ دوره Java در معماری جدید AS Academy.
 
-## وضعیت
-Course Package نسخه `1.3.0` شامل چهار سطح، 38 فصل، 165 تمرین مرحله‌بندی‌شده، Quiz/Assessment، پروژه‌های runnable و Capstone فروشگاهی است.
+## معماری فعلی
 
-## معماری Core-First
-این مخزن Course Repository است. Navigation، Design System، Database، Content Engine، Progress، Quiz/Exercise Engine، Search، Bookmark، Settings، Achievement، Update، Backup و Code Runner Framework در `AS-Academy-Core` نگهداری می‌شوند و اینجا تکرار نمی‌شوند.
+این repository دیگر محل اصلی نگهداری محتوای آموزشی یا UI مشترک نیست:
 
-این مخزن فقط محتوای Java، metadata، branding، تمرین، آزمون، پروژه و capabilityهای اختصاصی دوره را نگه می‌دارد.
+- `AS-Academy-Core`: موتور مشترک، Navigation contract، Database، Progress، Search، Quiz/Exercise، Bookmark، Notes، Update و سرویس‌های runtime.
+- `AS-Academy-MainUi`: UI/UX مشترک، Screenها، Drawer/Profile، Theme، Lesson Reader و نمایش Course Package.
+- `AS-Academy-MainCourse`: منبع واحد تمام درس‌ها، فصل‌ها، تمرین‌ها، Quizها، آزمون‌ها، پروژه‌ها، Capstone، Glossary و metadata دوره‌ها.
+- `AS-Academy-Java`: App shell نازک Java؛ فقط Application/Build config، اتصال سه لایه، branding/capability واقعاً اختصاصی و release app را نگه می‌دارد.
 
-## مسیر آموزشی
-1. مبانی Java و محیط توسعه
-2. Syntax، Type، Control Flow، Array و Method
-3. OOP، Collections، Exception و File I/O
-4. Generics، Lambda، Stream و Optional
-5. Concurrency و Virtual Threads
-6. JVM، Memory، GC و Diagnostics
-7. SQL، JDBC و Transaction
-8. Testing، Clean Code و SOLID
-9. Algorithms، Data Structures، Tree/Graph و Dynamic Programming
-10. Reflection، Annotation، HTTP/JSON
-11. Maven، Gradle، Logging و Design Patterns
-12. Spring Core و Dependency Injection
-13. Spring Boot و Production Configuration
-14. REST API، Validation و Error Contract
-15. JPA/Hibernate، Transaction و Performance
-16. Spring Security و JWT
-17. Spring Boot Testing
-18. Docker، CI/CD و Deployment
-19. Java Android
-20. Git/GitHub، Interview و Portfolio
-21. Capstone: Academy Store API
+## Source of Truth دوره Java
 
-## تمرین و ارزیابی
-`course/exercises/EXERCISE-BANK.md` شامل 165 تمرین از مقدماتی تا Capstone و مصاحبه است. تمرین‌های پیشرفته نیازمند تحلیل complexity/test هستند و بخش Professional با تست خودکار و architecture rationale ارزیابی می‌شود.
+محتوای Java باید در مسیر زیر توسعه داده شود:
 
-## پروژه‌ها
-پروژه‌های runnable شامل Grade Analyzer، Invoice Manager و Student JDBC هستند. Capstone نهایی `Academy Store API` با Spring Boot، Security/JWT، JPA/Hibernate، PostgreSQL، Checkout، Inventory، Payment abstraction، Testing، Docker و CI توسعه داده شده است.
+`AS-Academy-MainCourse/courses/java/course`
 
-## قرارداد Course Package
-دوره از قرارداد `AS-Academy-Core/docs/course-contract.md` پیروی می‌کند. Stable IDها حفظ می‌شوند و تغییر curriculum با versioning مدیریت می‌شود. فایل‌های پایه شامل `manifest.json`، `branding.json`، `levels.json` و `chapters.json` هستند.
+فایل `academy-integration.json` قرارداد اتصال این app به Core، MainUi و MainCourse را مشخص می‌کند.
 
-## ساختار اصلی
-```text
-course/
-├── manifest.json
-├── branding.json
-├── course.json
-├── levels.json
-├── chapters.json
-├── learning-flow.json
-├── lessons/
-├── exercises/
-├── quizzes/
-├── projects/
-└── glossary/
-```
+## وضعیت محتوای قبلی
 
-## CI
-دو مسیر CI برای پروژه‌های runnable دوره و Spring Boot Capstone تعریف شده‌اند. هر تغییر کد باید build/test را سبز نگه دارد.
+`course/` و `course-content/` فعلاً به‌عنوان Migration Snapshot نگه داشته شده‌اند تا انتقال بدون از دست‌رفتن محتوا انجام شود. بعد از کامل‌شدن migration، تغییر محتوای آموزشی در این دو مسیر مجاز نیست و نسخه مرجع فقط MainCourse خواهد بود.
+
+محتوای موجود شامل چهار سطح مبانی، مقدماتی، پیشرفته و تخصصی، 38 فصل، بانک 165 تمرینی، Quiz/Assessment، پروژه‌های runnable و Academy Store API Capstone است.
 
 ## قانون توسعه
-قابلیت عمومی جدید باید ابتدا در `AS-Academy-Core` پیاده‌سازی شود. این repository نباید نسخه تکراری Navigation، Database، Progress، Quiz Engine یا سایر زیرساخت‌های مشترک ایجاد کند.
+
+1. منطق مشترک فقط در Core.
+2. UI مشترک فقط در MainUi.
+3. محتوای آموزشی فقط در MainCourse.
+4. Java repo فقط App shell و قابلیت واقعاً اختصاصی Java.
+5. Stable IDهای دوره هنگام migration حفظ می‌شوند تا Progress، Bookmark و Note کاربران نشکند.
+6. Course Package باید قبل از Release با validator/compiler رسمی Core تأیید شود.
+
+## CI
+
+CIهای پروژه‌های runnable و Capstone حفظ شده‌اند. CI محتوای Course Package در دوره migration به MainCourse منتقل/بازطراحی می‌شود تا منبع واحد محتوا را validate کند.
 
 ---
 AS Academy / AS Team Group
