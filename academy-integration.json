@@ -1,0 +1,22 @@
+{
+  "courseId": "java",
+  "architectureVersion": "3.0",
+  "engine": {
+    "repository": "waxew/AS-Academy-Core",
+    "role": "shared-runtime"
+  },
+  "ui": {
+    "repository": "waxew/AS-Academy-MainUi",
+    "role": "shared-ui-shell"
+  },
+  "content": {
+    "repository": "waxew/AS-Academy-MainCourse",
+    "path": "courses/java/course",
+    "role": "single-source-of-truth"
+  },
+  "legacyContent": {
+    "paths": ["course", "course-content"],
+    "mode": "migration-snapshot",
+    "writePolicy": "read-only-after-maincourse-migration"
+  }
+}
